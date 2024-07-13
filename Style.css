@@ -8,7 +8,7 @@ body{
 
 .main{
     height:80vh;
-    width: 12vw;
+    width:12vw;
     border: 2px solid black;
     background-color: rgb(0, 255, 255);
     margin: auto;
@@ -45,14 +45,23 @@ body{
     padding-bottom: 140px;
 
 }
-
-input{
-    padding: 8px 120px 8px 3px;
+.type-email{
+    padding: 8px 110px 8px 3px;
     border: 2px solid rgba(132, 0, 255, 0.719);
     background-color: #e2bfe3;
     color: black;
     font-weight: 400;
     border-radius:8px;
+}
+
+.type-pass{
+    padding: 8px 110px 8px 3px;
+    border: 2px solid rgba(132, 0, 255, 0.719);
+    background-color: #e2bfe3;
+    color: black;
+    font-weight: 400;
+    border-radius:8px;
+    margin-left: 20px;
 }
 input:hover{
     background-color: white;
@@ -89,4 +98,30 @@ button:checked{
     margin-left: -230px;
     margin-top: 15px;
     margin-bottom: -10px;
+}
+.forgot{
+    padding:5px 10px 0 200px;
+    color: rgb(0, 136, 255);
+    padding-top: 15px;
+}
+
+.Sign-up{
+    margin-top: 20px;
+    color:  rgb(52, 43, 43);
+}
+.using{
+    color: rgb(52, 43, 43);
+    margin-top:50px;
+}
+
+.last-sign{
+    margin-bottom: -130px;
+}
+
+.icons{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.icons:hover{
+    font-size: 25px;
 }
